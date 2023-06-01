@@ -118,7 +118,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama_user`, `email`, `password`, `level`, `avatar`) VALUES
-(6, 'Helpdesk Shoppify', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', '1', 'user.png');
+(6, 'Helpdesk akaremas', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', '1', 'user.png');
 
 --
 -- Indexes for dumped tables

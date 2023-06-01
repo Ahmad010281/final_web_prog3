@@ -98,35 +98,35 @@
                             <img class="mt-2" src="<?= site_url('asset') ?>/bca.png" width="60">
                         </div>
                         <div class="text-slate-500"></div>
-                        <div class="ml-auto font-medium">6750527090 / Shoppify Commerce</div>
+                        <div class="ml-auto font-medium">6750527090 / akaremas</div>
                     </a>
                     <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#add-item-modal" class="flex items-center p-3 cursor-pointer transition duration-300 ease-in-out bg-white dark:bg-darkmode-600 hover:bg-slate-100 dark:hover:bg-darkmode-400 rounded-md">
                         <div class="max-w-[50%] truncate mr-1">
                             <img class="mt-2" src="<?= site_url('asset') ?>/mandiri.png" width="80">
                         </div>
                         <div class="text-slate-500"></div>
-                        <div class="ml-auto font-medium">1918009817 / Shoppify Commerce</div>
+                        <div class="ml-auto font-medium">1918009817 / akaremas</div>
                     </a>
                     <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#add-item-modal" class="flex items-center p-3 cursor-pointer transition duration-300 ease-in-out bg-white dark:bg-darkmode-600 hover:bg-slate-100 dark:hover:bg-darkmode-400 rounded-md">
                         <div class="max-w-[50%] truncate mr-1">
                             <img class="mt-2" src="<?= site_url('asset') ?>/bni.png" width="60">
                         </div>
                         <div class="text-slate-500"></div>
-                        <div class="ml-auto font-medium">6721598021 / Shoppify Commerce</div>
+                        <div class="ml-auto font-medium">6721598021 / akaremas</div>
                     </a>
                     <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#add-item-modal" class="flex items-center p-3 cursor-pointer transition duration-300 ease-in-out bg-white dark:bg-darkmode-600 hover:bg-slate-100 dark:hover:bg-darkmode-400 rounded-md">
                         <div class="max-w-[50%] truncate mr-1">
                             <img class="mt-2" src="<?= site_url('asset') ?>/bri.png" width="50">
                         </div>
                         <div class="text-slate-500"></div>
-                        <div class="ml-auto font-medium">6750527090 / Shoppify Commerce</div>
+                        <div class="ml-auto font-medium">6750527090 / akaremas</div>
                     </a>
                     <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#add-item-modal" class="flex items-center p-3 cursor-pointer transition duration-300 ease-in-out bg-white dark:bg-darkmode-600 hover:bg-slate-100 dark:hover:bg-darkmode-400 rounded-md">
                         <div class="max-w-[50%] truncate mr-1">
                             <img class="mt-2" src="<?= site_url('asset') ?>/btpn.png" width="50">
                         </div>
                         <div class="text-slate-500"></div>
-                        <div class="ml-auto font-medium">6750527090 / Shoppify Commerce</div>
+                        <div class="ml-auto font-medium">6750527090 / akaremas</div>
                     </a>
                 </div>
 

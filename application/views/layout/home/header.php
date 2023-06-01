@@ -681,7 +681,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <!-- BEGIN: Breadcrumb -->
             <nav aria-label="breadcrumb" class="-intro-x h-full mr-auto">
                 <ol class="breadcrumb breadcrumb-light">
-                    <li class="breadcrumb-item"><a href=""><?= $title ?></a></li>
+                    <li class="breadcrumb-item"><a href="">Akar Emas</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><a href="<?= site_url('admin/dashboard') ?>">Dashboard</a></li>
                 </ol>
             </nav>

@@ -1,12 +1,12 @@
-<h2><center>Data Siswa</center></h2>
+<h2><center>Data transaksi</center></h2>
 <hr/>
 <table border="1" width="100%" style="text-align:center;">
 	<tr>
 		<th>No</th>
-		<th>Nama</th>
-		<th>Kelas</th>
-		<th>Jenis Kelamin</th>
-		<th>Alamat</th>
+		<th>Nama barang</th>
+		<th>harga</th>
+		<th>Jumlah</th>
+		<th>sub-total</th>
 	</tr>
 	<?php 
 	$no=1; 

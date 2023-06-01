@@ -1,4 +1,7 @@
 <?php
+
+use LDAP\Result;
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Invoice extends CI_Controller
@@ -49,4 +52,11 @@ class Invoice extends CI_Controller
 		$this->pdf->filename = "Invoice Bill.pdf";
 		$this->pdf->load_view('admin/payment/pdf', $data);
 	}
+	public function export_excel($id_invoice)
+	{
+		$data = array('title' => 'invoice', 'pesanan' => $this->model_invoice->get_id_pesanan($id_invoice)); 
+		
+		$this->load->view('admin/payment/excel', $data);
+	}
+
 }
