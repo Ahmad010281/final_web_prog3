@@ -33,4 +33,6 @@ class Order extends CI_Controller
 		$this->load->view('order_detail', $data);
 		$this->load->view('layout/user/footer');
 	}
+
+
 }

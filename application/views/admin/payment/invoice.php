@@ -2,7 +2,7 @@
         <h2 class="intro-y text-lg font-medium mt-10">
             Transaction List
         </h2>
-        <div class="grid grid-cols-12 gap-6 mt-5">
+        <!-- <div class="grid grid-cols-12 gap-6 mt-5">
             <div class="intro-y col-span-12 flex flex-wrap xl:flex-nowrap items-center mt-2">
                 <div class="flex w-full sm:w-auto">
                     <div class="w-48 relative text-slate-500">
@@ -13,14 +13,14 @@
                         <option>Status</option>
                         <option>Waiting Payment</option>
                         <option>Confirmed</option>
-                        <option>Packing</option>
+                        <option>Packing</option>s
                         <option>Delivered</option>
                         <option>Completed</option>
                     </select>
                 </div>
                 <div class="hidden xl:block mx-auto text-slate-500"></div>
                
-            </div>
+            </div> -->
             <!-- BEGIN: Data List -->
             <div class="intro-y col-span-12 overflow-auto 2xl:overflow-visible">
                 <table class="table table-report -mt-2">

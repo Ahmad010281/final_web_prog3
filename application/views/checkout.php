@@ -28,7 +28,7 @@
                                 <div class="mt-5">
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Customer Name <small class="text-danger">*</small></label>
-                                        <input type="hidden" id="order_id" name="order_id" value="INV-<?= mt_rand(000000000, 111111111) ?>" maxlength="8" autocomplete="off" required>
+                                        <input type="hidden" id="order_id" name="order_id" value="INV-<?= date('ymd'). $this->session->userdata('id_user'); ?>" maxlength="8" autocomplete="off" required>
                                         <input type="hidden" id="tracking_id" name="tracking_id" value="<?= mt_rand(0000000000000, 1111111111111) ?>" maxlength="12" autocomplete="off" required>
                                         <input type="hidden" name="payment_method" value="Direct Bank Transfer">
                                         <input type="hidden" name="id_user" id="id_user" value="<?php echo $this->session->userdata('id_user') ?>">
@@ -52,27 +52,38 @@
                                 <div class="mt-5">
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Your Address <small class="text-danger">*</small></label>
-                                        <input type="text" id="alamat" name="alamat" class="form-control" placeholder="Your mobile phone" autocomplete="off" required>
+                                        <input type="text" id="alamat" name="alamat" class="form-control" placeholder="Your address" autocomplete="off" required>
                                     </div>
 
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Provincy <small class="text-danger">*</small></label>
-                                        <select name="provinsi" id="provinsi" class="form-control"></select>
+                                        <input type="text" id="provinsi" name="provinsi" class="form-control" placeholder="Your address" autocomplete="off" required>
+                                        <!-- <select name="provinsi" id="provinsi" class="form-control"></select> -->
                                     </div>
 
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">City <small class="text-danger">*</small></label>
-                                        <select name="kota" id="kota" class="form-control"></select>
+                                        <input type="text" id="kota" name="kota" class="form-control" placeholder="Your address" autocomplete="off" required>
+                                        <!-- <select name="kota" id="kota" class="form-control"></select> -->
                                     </div>
 
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Postal Code <small class="text-danger">*</small></label>
-                                        <input type="text" class="form-control" id="kode_pos" name="kode_pos" placeholder="Your mobile phone" autocomplete="off" required>
+                                        <input type="text" class="form-control" id="kode_pos" name="kode_pos" placeholder="kode pos" autocomplete="off" required>
                                     </div>
 
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Delivery Service <small class="text-danger">*</small></label>
-                                        <select name="ekspedisi" id="ekspedisi" class="form-control"></select>
+                                        <select id="ekspedisi" name="ekspedisi" class="form-select">
+                                        <option hidden>Pilih ekspekdisi</option>
+                                        <option value="T-Shirt">JNE</option>
+                                        <option value="Jacket">JNT</option>
+                                        <option value="Shoes">Shope Express</option>
+                                        <option value="Electronic">Grab</option>
+                                        <option value="Kids & Baby">Gojek</option>
+                                        <option value="Fashion & Make Up">Lion parcel</option>
+                                    </select>
+                                        <!-- <select name="ekspedisi" id="ekspedisi" class="form-control"></select> -->
                                     </div>
                                 </div>
                             </div>

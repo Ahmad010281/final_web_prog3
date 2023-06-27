@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <!--
-Template Name: Icewall - HTML Admin Dashboard Template
-Author: Left4code
-Website: http://www.left4code.com/
-Contact: muhammadrizki@left4code.com
-Purchase: https://themeforest.net/user/left4code/portfolio
-Renew Support: https://themeforest.net/user/left4code/portfolio
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<html lang="en" class="light">
+
 <!-- BEGIN: Head -->
 
 <head>
@@ -136,12 +128,12 @@ License: You must have a valid license purchased only from themeforest(the above
                         <li>
                             <hr class="dropdown-divider border-white/[0.08]">
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="user" class="w-4 h-4 mr-2"></i> Profile </a>
                         </li>
                         <li>
                             <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
-                        </li>
+                        </li> -->
                         <li>
                             <hr class="dropdown-divider border-white/[0.08]">
                         </li>

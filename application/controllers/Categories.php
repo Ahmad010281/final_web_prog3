@@ -3,7 +3,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Categories extends CI_Controller
 {
+	
 
+	// public function cut()
+	// {
+	// 	if($this->input->post('kategori') == 'Jacket'){
+	// 		$this->jacket();
+	// 	}
+	// }
 	public function elektronik()
 	{
 		$data['title'] = 'Elektronik Categories';

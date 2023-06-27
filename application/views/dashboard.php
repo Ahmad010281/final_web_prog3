@@ -7,9 +7,23 @@
 
 
             <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto md:ml-0">
-                <div class="w-56 relative text-slate-500">
-                    <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
-                    <i class="w-4 h-4 absolute my-auto inset-y-0 mr-3 right-0" data-lucide="search"></i>
+                <div class="">
+                    <!-- <form action="<?= base_url('categories/cut') ?>" method="post">
+
+                        <select id="category" name="kategori" class="form-select">
+                            <option hidden>-- Select Categories --</option>
+                        <option >
+                        </option>
+                        <option  class="side-menu" value="Jacket">Jacket</option>
+                        <option value="Shoes">Shoes</option>
+                        <option value="Electronic">Electronic</option>
+                        <option value="Kids & Baby">Kids &amp; Baby</option>
+                        <option value="Fashion & Make Up">Fashion &amp; Make Up</option>
+                    </select>
+                    <button type="submit">name</button>
+                </form> -->
+                    <!-- <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
+                    <i class="w-4 h-4 absolute my-auto inset-y-0 mr-3 right-0" data-lucide="search"></i> -->
                 </div>
             </div>
         </div>
@@ -30,7 +44,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center lg:justify-end items-center p-5 border-t border-slate-200/60">
-                         <a class="flex items-center btn btn-sm btn-success text-white mr-3" href="<?php echo base_url('dashboard/detail_product/' . $row->id_brg) ?>" data-tw-toggle="modal" data-tw-target="#delete-confirmation-modal"> <i data-lucide="info" class="w-4 h-4 mr-1"></i> Detail </a>
+                        <a class="flex items-center btn btn-sm btn-success text-white mr-3" href="<?php echo base_url('dashboard/detail_product/' . $row->id_brg) ?>" data-tw-toggle="modal" data-tw-target="#delete-confirmation-modal"> <i data-lucide="info" class="w-4 h-4 mr-1"></i> Detail </a>
                         <a class="flex items-center btn btn-sm btn-primary mr-3" href="<?= site_url('dashboard/cart/' . $row->id_brg) ?>"> <i data-lucide="shopping-cart" class="w-4 h-4 mr-1"></i> Add to Cart </a>
                     </div>
                 </div>
